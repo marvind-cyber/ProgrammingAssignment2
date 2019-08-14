@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Get Inverse of a matrix if available from cache.
+## Get Inverse of a matrix if available from cache else compute and add to cache.
 
 cacheSolve <- function(x, ...) {
   i <- x$getinv()
